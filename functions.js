@@ -73,7 +73,7 @@ function embedbuilder(client, deletetime, message, color, title, description, th
             .setAuthor(message.author.tag, message.member.user.displayAvatarURL({
                 dynamic: true
             }), "")
-            .setFooter(client.user.username + " | by: jano", client.user.displayAvatarURL());
+            .setFooter(client.user.username + " | by: CLEVER", client.user.displayAvatarURL());
         if (title) embed.setTitle(title);
         if (description) embed.setDescription(description);
         if (thumbnail) embed.setThumbnail(thumbnail)
@@ -334,9 +334,9 @@ function curembed(client, message) {
             .addField("<a:jano_44:840250687610683442> Duration:", `>>> \`${queue.formattedCurrentTime} / ${song.formattedDuration}\``, true)
             .addField("<a:jano_49:840252555523260446> Queue:", `>>> \`${queue.songs.length} song(s) - ${queue.formattedDuration}\``, true)
             .addField("<a:jano_45:840250785446363157> Volume:", `>>> \`${queue.volume} %\``, true)
-            .addField("<a:jano_47:840252353855881278> Loop:", `>>> ${queue.repeatMode ? queue.repeatMode === 2 ? "<a:jano_29:840650829257637900> Queue" : "<a:jano_29:840650829257637900> Song" : "<a:jano_26:799630865474256972>"}`, true)
-            .addField("<a:jano_22:840486258362417162> Autoplay:", `>>> ${queue.autoplay ? "<a:jano_29:840650829257637900>" : "<a:jano_26:799630865474256972>"}`, true)
-            .addField("<a:jano_24:799630717507862558> Filter:", `>>> \`${queue.filter || "<a:jano_26:799630865474256972>"}\``, true)
+            .addField("<a:jano_47:840252353855881278> Loop:", `>>> ${queue.repeatMode ? queue.repeatMode === 2 ? "<a:CLEVER:828550389233090571> Queue" : "<a:CLEVER:828550389233090571> Song" : "<a:jano_26:799630865474256972>"}`, true)
+            .addField("<a:jano_22:840486258362417162> Autoplay:", `>>> ${queue.autoplay ? "<a:CLEVER:828550389233090571>" : "<a:CLEVER:828550389233090571>"}`, true)
+            .addField("<a:jano_24:799630717507862558> Filter:", `>>> \`${queue.filter || "<a:CLEVER:828550389233090571>"}\``, true)
             .addField("<a:jano_31:834550131658326055> DJ-Role:", `>>> ${djs}`, true)
             .setFooter(client.user.username + " | by: jano", client.user.displayAvatarURL())
             .setAuthor(message.author.tag, message.member.user.displayAvatarURL({

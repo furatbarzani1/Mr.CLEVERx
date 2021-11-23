@@ -36,19 +36,19 @@ module.exports = {
             )
             .setColor(config.colors.yes)
             .addFields({
-                    name: '<a:jano_10:799629559217389608> BOT TAG',
+                    name: '<a:CLEVER:828550389233090571> BOT TAG',
                     value: `**\`${client.user.tag}\`**`,
                     inline: true,
                 }, {
-                    name: '<a:jano_10:799629559217389608> BOT VERSION',
+                    name: '<a:CLEVER:828550389233090571> BOT VERSION',
                     value: `**\`7.0.0\`**`,
                     inline: true,
                 }, {
-                    name: '<a:jano_10:799629559217389608> DISCORD.JS VERSION',
+                    name: '<a:CLEVER:828550389233090571> DISCORD.JS VERSION',
                     value: `**\`${version}\`**`,
                     inline: true,
                 }, {
-                    name: '<a:jano_44:840250687610683442> UPTIME',
+                    name: '<a:CLEVER:828550389233090571> UPTIME',
                     value: `**\`${days}d\` \`${hours}h\` \`${minutes}m\` \`${seconds}s\`**`,
                     inline: true,
                 }, {
@@ -60,15 +60,15 @@ module.exports = {
                     value: `\u200b`,
                     inline: true,
                 }, {
-                    name: '<a:jano_28:840493514244751400> Server count',
+                    name: '<a:CLEVER:828550389233090571> Server count',
                     value: `**\`${client.guilds.cache.size}\`**`,
                     inline: true,
                 }, {
-                    name: '<a:jano_28:840493514244751400> Total members',
+                    name: '<a:CLEVER:828550389233090571> Total members',
                     value: `**\`${totalMembers}\`**`,
                     inline: true,
                 }, {
-                    name: '<a:jano_28:840493514244751400> Commands Amount',
+                    name: '<a:CLEVER:828550389233090571> Commands Amount',
                     value: `**\`${client.commands.map(cmd => cmd.name).length}\`**`,
                     inline: true,
                 }, {
@@ -76,27 +76,27 @@ module.exports = {
                     value: `\u200b`,
                     inline: false,
                 }, {
-                    name: "<a:jano_24:840489815548100628> SERVER PREFIX",
+                    name: "<a:CLEVER:828550389233090571> SERVER PREFIX",
                     value: `**\`${prefix}\`**`,
                     inline: true,
                 }, {
-                    name: "<a:jano_26:840490585348374538> BOT CHANNELS",
+                    name: "<a:CLEVER:828550389233090571> BOT CHANNELS",
                     value: `**${boch}**`,
                     inline: true,
                 }, {
-                    name: "<a:jano_31:834550131658326055> DJ-ROLES",
+                    name: "<a:CLEVER:828550389233090571> DJ-ROLES",
                     value: `**${djs}**`,
                     inline: true,
                 }, {
-                    name: "<a:jano_22:840486258362417162> Amount of Commands used",
+                    name: "<a:CLEVER:828550389233090571> Amount of Commands used",
                     value: `**\`${client.infos.get("global", "cmds")}\`**`,
                     inline: true,
                 }, {
-                    name: "<a:jano_25:840490568232075264> Amount of Songs played",
+                    name: "<a:CLEVER:828550389233090571> Amount of Songs played",
                     value: `**\`${client.infos.get("global", "songs")}\`**`,
                     inline: true,
                 }, {
-                    name: "<a:jano_24:799630717507862558> Amount of Filter added",
+                    name: "<a:CLEVER:828550389233090571> Amount of Filter added",
                     value: `**\`${client.infos.get("global", "filters")}\`**`,
                     inline: true,
                 },
@@ -107,11 +107,11 @@ module.exports = {
     `)
 
             .addField("***FOUNDER:***", `
-    >>> <@681553671364018196> 
+    >>> <@828550389233090571> 
     `)
    
         .addField("***SUPPORT***", `
- >>> [\`Server\`](https://discord.gg/FfF3gd4YTF) | [\`Invite\`](https://discord.com/api/oauth2/authorize?client_id=778276774320275487&permissions=0&scope=bot) 
+ >>> [\`Server\`](https://discord.gg/wCsGaASBVn) | [\`Invite\`](https://discord.com/oauth2/authorize?client_id=911935319375499284&permissions=70282305&scope=bot) 
     `)
         message.channel.send(embed)
     }

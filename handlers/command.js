@@ -26,7 +26,7 @@ module.exports = (client) => {
     const guildonlycounter = new Map();
     client.on("ready", () => {
         console.log(`Bot User ${client.user.username} has been logged in and is ready to use!`);
-        client.user.setActivity('&help | Hyper Canary', {
+        client.user.setActivity('M!help |  MUSIC', {
             type: 'WATCHING'
         });
         setInterval(() => {
@@ -203,6 +203,6 @@ module.exports = (client) => {
         });
 
     console.log(table.toString());
-    console.log("Welcome to HANDLER SERVICE // By jano")
+    console.log("Welcome to HANDLER SERVICE // By CLEVER")
     console.log("Logging into Bot User...");
 }

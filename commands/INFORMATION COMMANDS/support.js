@@ -17,7 +17,7 @@ module.exports = {
 				
 				
 				.setDescription(`
-**[ Link Server ](https://discord.gg/dTNKbPXw9Y)**
+**[ Link Server ](https://discord.gg/wCsGaASBVn)**
 			
 `)
 			)
@@ -36,7 +36,7 @@ module.exports = {
 		    > **>>** WEBHOSTING
 		    > **>>** TEAMSPEAK SERVERS
 		    > **>>** Linux & Windows Root Servers
-		    [**Link Server:**](https://discord.gg/FfF3gd4YTF)
+		    [**Link Server:**](https://discord.gg/wCsGaASBVn)
 		   
 		    [**__SPONSOR LINK!__**]()
 		    `)

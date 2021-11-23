@@ -4,15 +4,15 @@ module.exports = {
     name: "vote",
     aliases: ["rate"],
     category: "INFORMATION COMMANDS",
-    description: "Votes for Hyper Canary",
+    description: "Votes for MUSIC",
     useage: "vote",
     run: async (client, message, args) => {
         return message.reply(
             new Discord.MessageEmbed()
             .setColor(config.colors.yes)
             .setFooter(client.user.username, client.user.displayAvatarURL())
-            .setTitle("Vote for Hyper Canary")
-            .setURL("https://top.gg/bot/780578520870158337")
+            .setTitle("Vote for MUSIC")
+            .setURL("https://top.gg/bot/911935319375499284/analytics")
             .setDescription(``)
         )
     }

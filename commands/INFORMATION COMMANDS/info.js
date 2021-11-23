@@ -52,7 +52,7 @@ module.exports = {
                     value: `**\`${days}d\` \`${hours}h\` \`${minutes}m\` \`${seconds}s\`**`,
                     inline: true,
                 }, {
-                    name: '<a:jano_23:840489300327923712> PING',
+                    name: '<a:CLEVER:828550389233090571> PING',
                     value: `**\`${client.ws.ping} ms\`**`,
                     inline: true,
                 }, {

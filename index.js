@@ -113,11 +113,11 @@ client.on("message", async message => {
         return message.reply("**:x: I am missing the Permission to `EMBED_LINKS`**")
 
     //CHECK IF IN A BOT CHANNEL OR NOT
-    if (client.settings.get(message.guild.id, `botchannel`).toString() !== "") {
-        if (!client.settings.get(message.guild.id, `botchannel`).includes(message.channel.id) && !message.member.hasPermission("ADMINISTRATOR")) {
+    if (client.settings.get(message.guild.id, `913160202071703652`).toString() !== "") {
+        if (!client.settings.get(message.guild.id, `913169712760893531`).includes(message.channel.id) && !message.member.hasPermission("ADMINISTRATOR")) {
             let leftb = "";
-            for (let i = 0; i < client.settings.get(message.guild.id, `botchannel`).length; i++) {
-                leftb += "<#" + client.settings.get(message.guild.id, `botchannel`)[i] + "> / "
+            for (let i = 0; i < client.settings.get(message.guild.id, `913169750195056650`).length; i++) {
+                leftb += "<#" + client.settings.get(message.guild.id, `913169793585139783`)[i] + "> / "
             }
             return functions.embedbuilder(client, 5000, message, config.colors.no, `Not in the Bot Chat!`, `There is a Bot chat setup in this GUILD! try using the Bot Commands here: 
             > ${leftb}`)

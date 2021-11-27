@@ -113,7 +113,7 @@ client.on("message", async message => {
         return message.reply("**:x: I am missing the Permission to `EMBED_LINKS`**")
 
     //CHECK IF IN A BOT CHANNEL OR NOT
-    if (client.settings.get(message.guild.id, `botchannel`).toString() !== "913715849448280104") {
+    if (client.settings.get(message.guild.id, `botchannel`).toString() !== "") {
         if (!client.settings.get(message.guild.id, `botchannel`).includes(message.channel.id) && !message.member.hasPermission("ADMINISTRATOR")) {
             let leftb = "";
             for (let i = 0; i < client.settings.get(message.guild.id, `botchannel`).length; i++) {
